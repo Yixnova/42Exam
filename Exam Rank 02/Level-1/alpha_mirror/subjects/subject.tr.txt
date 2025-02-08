@@ -1,0 +1,27 @@
+Görev Adı         : alpha_mirror
+Beklenen Dosya    : alpha_mirror.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+alpha_mirror adlı bir program yazın, bu program bir string almalı ve her harfi,
+alfabetik olarak tersine çevrilmiş karşılığıyla değiştirmelidir.
+
+'a' → 'z', 'Z' → 'A'
+'d' → 'w', 'M' → 'N'
+ve bu şekilde devam eder.
+
+Büyük/küçük harf farkı korunmalıdır.
+
+Çıktı, bir yeni satır karakteri (`\n`) ile sonlandırılmalıdır.
+
+Eğer parametre sayısı 1 değilse, program sadece bir yeni satır karakteri yazdırmalıdır.
+
+Örnekler:
+
+$>./alpha_mirror "abc"
+zyx
+$>./alpha_mirror "My horse is Amazing." | cat -e
+Nb slihv rh Znzarmt.$
+$>./alpha_mirror | cat -e
+$
+$>

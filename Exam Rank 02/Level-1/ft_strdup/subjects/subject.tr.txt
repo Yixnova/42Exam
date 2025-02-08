@@ -1,0 +1,10 @@
+Görev Adı         : ft_strdup
+Beklenen Dosya    : ft_strdup.c
+İzin Verilen Fonksiyonlar: malloc
+--------------------------------------------------------------------------------
+
+`strdup` fonksiyonunun davranışını yeniden oluşturun (bkz: `man strdup`).
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+char    *ft_strdup(char *src);

@@ -1,0 +1,10 @@
+Görev Adı         : ft_strcmp
+Beklenen Dosya    : ft_strcmp.c
+İzin Verilen Fonksiyonlar: Yok
+--------------------------------------------------------------------------------
+
+`strcmp` fonksiyonunun davranışını yeniden oluşturun (bkz: `man strcmp`).
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+int    ft_strcmp(char *s1, char *s2);

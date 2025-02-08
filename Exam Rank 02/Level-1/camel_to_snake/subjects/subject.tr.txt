@@ -1,0 +1,23 @@
+Görev Adı         : camel_to_snake
+Beklenen Dosya    : camel_to_snake.c
+İzin Verilen Fonksiyonlar: malloc, free, realloc, write
+--------------------------------------------------------------------------------
+
+Bir program yazın, bu program bir string alacak ve **lowerCamelCase** formatındaki
+bu string'i **snake_case** formatına çevirecektir.
+
+- **lowerCamelCase**: İlk kelime küçük harfle başlar, sonraki kelimeler büyük harfle başlar.
+- **snake_case**: Tüm harfler küçük olur ve kelimeler alt çizgi (`_`) ile ayrılır.
+
+Çıktı, bir yeni satır karakteri (`\n`) ile sonlandırılmalıdır.
+
+Eğer parametre sayısı 1 değilse, program sadece bir yeni satır karakteri yazdırmalıdır.
+
+Örnekler:
+
+$>./camel_to_snake "hereIsACamelCaseWord"
+here_is_a_camel_case_word
+$>./camel_to_snake "helloWorld" | cat -e
+hello_world$
+$>./camel_to_snake | cat -e
+$

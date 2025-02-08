@@ -1,0 +1,23 @@
+Görev Adı         : wdmatch
+Beklenen Dosya    : wdmatch.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+İki string alan bir program yazın ve ilk string'in, ikinci string'in karakterleriyle yazılıp yazılamayacağını kontrol edin. Bu yazımda, ikinci string'deki karakterlerin sırasına dikkat edilmelidir.
+
+Eğer yazmak mümkünse, string'i yazın ve bir \n ekleyin. Aksi halde sadece bir \n yazdırın.
+
+Eğer parametre sayısı 2 değilse, program bir \n yazdırmalıdır.
+
+Örnekler:
+
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
+faya$
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbred" | cat -e
+$
+$>./wdmatch "forty two" "qfqfsoudf arzgrsayns tsryegftdgs sjytwdekuooixq " | cat -e
+forty two$
+$>./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
+$
+$>./wdmatch | cat -e
+$

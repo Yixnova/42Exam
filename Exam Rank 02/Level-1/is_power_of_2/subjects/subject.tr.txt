@@ -1,0 +1,12 @@
+Görev Adı         : is_power_of_2
+Beklenen Dosya    : is_power_of_2.c
+İzin Verilen Fonksiyonlar: Yok
+--------------------------------------------------------------------------------
+
+Verilen bir sayının 2'nin kuvveti olup olmadığını belirleyen bir fonksiyon yazın.
+
+Bu fonksiyon, verilen sayı 2'nin kuvvetiyse 1, aksi takdirde 0 döndürecektir.
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+int	    is_power_of_2(unsigned int n);

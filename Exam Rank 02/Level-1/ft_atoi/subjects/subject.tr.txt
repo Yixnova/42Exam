@@ -1,0 +1,12 @@
+Görev Adı         : ft_atoi
+Beklenen Dosya    : ft_atoi.c
+İzin Verilen Fonksiyonlar: Yok
+--------------------------------------------------------------------------------
+
+Bir string'i tamsayıya (`int`) dönüştüren ve döndüren bir fonksiyon yazın.
+
+Bu fonksiyon, standart `atoi(const char *str)` fonksiyonu gibi çalışmalıdır (bkz: `man atoi`).
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+int	ft_atoi(const char *str);

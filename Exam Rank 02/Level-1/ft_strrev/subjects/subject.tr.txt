@@ -1,0 +1,12 @@
+Görev Adı         : ft_strrev
+Beklenen Dosya    : ft_strrev.c
+İzin Verilen Fonksiyonlar: Yok
+--------------------------------------------------------------------------------
+
+Bir string'i (yerinde) tersine çeviren bir fonksiyon yazın.
+
+Fonksiyon, parametresini döndürmelidir.
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+char    *ft_strrev(char *str);

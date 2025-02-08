@@ -1,0 +1,13 @@
+Görev Adı         : print_bits
+Beklenen Dosya    : print_bits.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+Bir byte alarak, sonuna yeni satır eklemeden binary (ikili) biçimde yazdıran bir fonksiyon yazın.
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+void	print_bits(unsigned char octet);
+
+Örnek, eğer 2'yi `print_bits` fonksiyonuna gönderirseniz, şu şekilde bir çıktı alırsınız:
+"00000010"

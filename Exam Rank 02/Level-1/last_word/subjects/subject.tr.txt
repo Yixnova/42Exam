@@ -1,0 +1,24 @@
+Görev Adı         : last_word
+Beklenen Dosya    : last_word.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+Bir string alarak, stringin son kelimesini bir yeni satır (`\n`) ile birlikte ekrana yazdıran bir program yazın.
+
+Bir kelime, string içinde boşluklar/tablar ile veya stringin başı/sonu ile sınırlanmış bir bölümdür.
+
+Eğer parametre sayısı 1 değilse veya kelime yoksa, sadece bir yeni satır yazdırılacaktır.
+
+Örnekler:
+
+$> ./last_word "FOR PONY" | cat -e
+PONY$
+$> ./last_word "this        ...       is sparta, then again, maybe    not" | cat -e
+not$
+$> ./last_word "   " | cat -e
+$
+$> ./last_word "a" "b" | cat -e
+$
+$> ./last_word "  lorem,ipsum  " | cat -e
+lorem,ipsum$
+$>

@@ -1,0 +1,19 @@
+Görev Adı         : swap_bits
+Beklenen Dosya    : swap_bits.c
+İzin Verilen Fonksiyonlar: Yok
+--------------------------------------------------------------------------------
+
+Bir byte alarak, bu byte'ın iki yarısını takas yaparak (örneğin aşağıdaki gibi) ve sonucu döndüren bir fonksiyon yazın.
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+unsigned char	swap_bits(unsigned char octet);
+
+Örnek:
+
+1 byte
+_____________
+0100 | 0001
+     \ /
+     / \
+0001 | 0100

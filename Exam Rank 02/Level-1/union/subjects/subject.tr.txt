@@ -1,0 +1,23 @@
+Görev Adı         : union
+Beklenen Dosya    : union.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+İki string alan bir program yazın ve her iki string'de de bulunan, tekrarlanmayan karakterleri sırasıyla yazdırın.
+
+Karakterler, komut satırındaki sıraya göre görüntülenmeli ve ardından bir \n eklenmelidir.
+
+Eğer parametre sayısı 2 değilse, program sadece bir \n yazdırmalıdır.
+
+Örnekler:
+
+$>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+zpadintoqefwjy$
+$>./union ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+df6vewg4thras$
+$>./union "rien" "cette phrase ne cache rien" | cat -e
+rienct phas$
+$>./union | cat -e
+$
+$>./union "rien" | cat -e
+$

@@ -1,0 +1,10 @@
+Görev Adı         : ft_strpbrk
+Beklenen Dosya    : ft_strpbrk.c
+İzin Verilen Fonksiyonlar: Yok
+--------------------------------------------------------------------------------
+
+`strpbrk` fonksiyonunun davranışını **birebir** yeniden oluşturun (bkz: `man strpbrk`).
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+char	*ft_strpbrk(const char *s1, const char *s2);

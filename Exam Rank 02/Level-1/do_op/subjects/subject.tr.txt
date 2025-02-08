@@ -1,0 +1,26 @@
+Görev Adı         : do_op
+Beklenen Dosya    : *.c, *.h
+İzin Verilen Fonksiyonlar: atoi, printf, write
+--------------------------------------------------------------------------------
+
+Üç string alan bir program yazın:
+- Birinci ve üçüncü string, int türüne sığan 10 tabanlı imzalı tamsayılar olmalıdır.
+- İkinci string, aşağıdaki aritmetik operatörlerden biri olmalıdır: `+`, `-`, `*`, `/`, `%`
+
+Program, işlemin sonucunu yeni satır karakteri (`\n`) ile ekrana yazdırmalıdır.
+Eğer parametre sayısı 3 değilse, program sadece yeni satır karakteri yazdırmalıdır.
+
+Girdi hatasızdır ve fazladan karakter içermez.
+Negatif sayılar girişte veya çıkışta yalnızca bir adet `-` içerir.
+İşlem sonucu bir int değerine sığar.
+
+Örnekler:
+$> ./do_op "123" "*" 456 | cat -e
+56088$
+$> ./do_op "9828" "/" 234 | cat -e
+42$
+$> ./do_op "1" "+" "-43" | cat -e
+-42$
+$> ./do_op | cat -e
+$
+

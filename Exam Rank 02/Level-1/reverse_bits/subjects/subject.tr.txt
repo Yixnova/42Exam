@@ -1,0 +1,19 @@
+Görev Adı         : reverse_bits
+Beklenen Dosya    : reverse_bits.c
+İzin Verilen Fonksiyonlar: Yok
+--------------------------------------------------------------------------------
+
+Bir byte alarak, her bitini tersine çeviren (örneğin aşağıdaki gibi) ve sonucu döndüren bir fonksiyon yazın.
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+unsigned char	reverse_bits(unsigned char octet);
+
+Örnek:
+
+1 byte
+_____________
+0100  0001
+     ||
+     \/
+1000  0010
