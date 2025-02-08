@@ -1,0 +1,23 @@
+Görev Adı         : ft_list_remove_if
+Beklenen Dosya    : ft_list_remove_if.c
+İzin Verilen Fonksiyonlar: free
+--------------------------------------------------------------------------------
+
+ft_list_remove_if adlı bir fonksiyon yazınız, bu fonksiyon verilen listeden
+verilen veriyle "eşit" olan her öğeyi çıkaracaktır.
+
+Fonksiyon şu şekilde tanımlanmalıdır:
+
+void ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)());
+
+cmp, iki void* alır ve her iki parametre eşitse 0 döner.
+
+Aşağıdaki yapıyı kullanmalısınız ve bunu ft_list.h dosyasında tutmalısınız:
+
+$>cat ft_list.h
+typedef struct      s_list
+{
+    struct s_list   *next;
+    void            *data;
+}                   t_list;
+$>

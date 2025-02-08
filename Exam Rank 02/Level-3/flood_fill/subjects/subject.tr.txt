@@ -1,0 +1,84 @@
+Görev Adı         : flood_fill
+Beklenen Dosya    : flood_fill.c
+İzin Verilen Fonksiyonlar: -
+--------------------------------------------------------------------------------
+
+Bir fonksiyon yazınız, bu fonksiyon bir char ** türünde bir 2 boyutlu char dizisi,
+bu dizinin boyutlarını belirten bir t_point yapısını ve başlangıç noktasını
+belirten bir t_point parametresi almalıdır.
+
+Verilen 'begin' t_point'ten başlayarak, fonksiyon tüm bölgeyi 'F' karakteri ile
+doldurmalıdır. Bir bölge, aynı karakterlerin yatay ve dikey olarak başka karakterler
+ya da dizinin sınırları ile sınırlanan bir grubudur.
+
+flood_fill fonksiyonu diyagonal olarak doldurma yapmaz.
+
+flood_fill fonksiyonu şu şekilde prototip edilmelidir:
+  void  flood_fill(char **tab, t_point size, t_point begin);
+
+t_point yapısı şu şekilde prototip edilmelidir: (bunu flood_fill.c dosyasına ekleyin)
+
+  typedef struct  s_point
+  {
+    int           x;
+    int           y;
+  }               t_point;
+
+Örnek:
+
+$> cat test.c
+#include <stdlib.h>
+#include <stdio.h>
+
+char** make_area(char** zone, t_point size)
+{
+	char** new;
+
+	new = malloc(sizeof(char*) * size.y);
+	for (int i = 0; i < size.y; ++i)
+	{
+		new[i] = malloc(size.x + 1);
+		for (int j = 0; j < size.x; ++j)
+			new[i][j] = zone[i][j];
+		new[i][size.x] = '\0';
+	}
+
+	return new;
+}
+
+int main(void)
+{
+	t_point size = {8, 5};
+	char *zone[] = {
+		"11111111",
+		"10001001",
+		"10010001",
+		"10110001",
+		"11100001",
+	};
+
+	char**  area = make_area(zone, size);
+	for (int i = 0; i < size.y; ++i)
+		printf("%s\n", area[i]);
+	printf("\n");
+
+	t_point begin = {7, 4};
+	flood_fill(area, size, begin);
+	for (int i = 0; i < size.y; ++i)
+		printf("%s\n", area[i]);
+	return (0);
+}
+
+$> gcc flood_fill.c test.c -o test; ./test
+11111111
+10001001
+10010001
+10110001
+11100001
+
+FFFFFFFF
+F000F00F
+F00F000F
+F0FF000F
+FFF0000F
+$>

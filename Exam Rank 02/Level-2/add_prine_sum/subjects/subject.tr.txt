@@ -1,0 +1,22 @@
+Görev Adı         : add_prime_sum
+Beklenen Dosya    : add_prime_sum.c
+İzin Verilen Fonksiyonlar: write, exit
+--------------------------------------------------------------------------------
+
+Pozitif bir tamsayı alan ve bu sayıya eşit veya daha küçük tüm asal sayıların toplamını ekrana yazdıran bir program yazın.
+
+Sonuç, bir yeni satır karakteri (\n) ile bitmelidir.
+
+Eğer parametre sayısı 1 değilse veya verilen argüman pozitif bir sayı değilse, sadece `0` yazdırılmalı ve yeni satıra geçilmelidir.
+
+Evet, aşağıdaki örnekler doğrudur.
+
+Örnekler:
+
+$>./add_prime_sum 5
+10
+$>./add_prime_sum 7 | cat -e
+17$
+$>./add_prime_sum | cat -e
+0$
+$>

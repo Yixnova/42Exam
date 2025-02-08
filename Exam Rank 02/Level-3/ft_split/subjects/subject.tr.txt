@@ -1,0 +1,14 @@
+Görev Adı         : ft_split
+Beklenen Dosya    : ft_split.c
+İzin Verilen Fonksiyonlar: malloc
+--------------------------------------------------------------------------------
+
+Bir fonksiyon yazınız, bu fonksiyon bir string alacak, onu kelimelere ayıracak
+ve bunları NULL ile sonlandırılmış bir string dizisi olarak döndürecektir.
+
+Bir "kelime", bir string'in, boşluklar/taplar/yeni satırlar veya string'in başı/sonu ile
+sınırlı bir kısmı olarak tanımlanır.
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+char    **ft_split(char *str);

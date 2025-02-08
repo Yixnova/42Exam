@@ -1,0 +1,27 @@
+Görev Adı         : lcm
+Beklenen Dosya    : lcm.c
+İzin Verilen Fonksiyonlar:
+--------------------------------------------------------------------------------
+
+İki unsigned int parametre alan ve bu parametrelerin hesaplanan LCM'sini
+geri döndüren bir fonksiyon yazınız.
+
+LCM (En Küçük Ortak Kat), iki sıfır olmayan tam sayının en küçük pozitif
+tam sayısıdır ve her iki tamsayı tarafından bölünebilir.
+
+Bir LCM iki şekilde hesaplanabilir:
+
+- Her iki tam sayının çarpanlarını hesaplayarak, 0 dışında ortak bir çarpan
+bulana kadar işlem yapabilirsiniz.
+
+- Bu iki tam sayının HCF'sini (En Büyük Ortak Bölen) kullanarak şu şekilde hesaplayabilirsiniz:
+
+	LCM(x, y) = | x * y | / HCF(x, y)
+
+  | x * y | "x ile y'nin çarpımının mutlak değeri" anlamına gelir.
+
+Eğer en az bir tamsayı sıfırsa, LCM 0'a eşittir.
+
+Fonksiyonunuz şu şekilde prototiplenecektir:
+
+  unsigned int    lcm(unsigned int a, unsigned int b);

@@ -1,0 +1,32 @@
+Görev Adı         : rostring
+Beklenen Dosya    : rostring.c
+İzin Verilen Fonksiyonlar: write, malloc, free
+--------------------------------------------------------------------------------
+
+Bir program yazın, bu program bir dize alacak ve bu dizeyi sola kaydırarak (yani bir kelimeyi sola döndürerek) ekrana yazdıracaktır.
+
+Buna göre, ilk kelime sona taşınır ve diğer kelimeler aynı sırada kalır.
+
+Bir "kelime", bir dizenin boşluklar/sekme karakterleri veya dizenin başlangıç/bitişi tarafından sınırlandırılmış bir parçası olarak tanımlanır.
+
+Çıktıda kelimeler yalnızca tek bir boşlukla ayrılacaktır.
+
+Eğer argüman sayısı 1'den az ise, program yalnızca \n (yeni satır) yazdırır.
+
+Örnek:
+
+$>./rostring "abc   " | cat -e
+abc$
+$>
+$>./rostring "Que la      lumiere soit et la lumiere fut"
+la lumiere soit et la lumiere fut Que
+$>
+$>./rostring "     AkjhZ zLKIJz , 23y"
+zLKIJz , 23y AkjhZ
+$>
+$>./rostring "first" "2" "11000000"
+first
+$>
+$>./rostring | cat -e
+$
+$>

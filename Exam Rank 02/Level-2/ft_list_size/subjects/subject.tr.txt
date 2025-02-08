@@ -1,0 +1,18 @@
+Görev Adı         : ft_list_size
+Beklenen Dosya    : ft_list_size.c, ft_list.h
+İzin Verilen Fonksiyonlar:
+--------------------------------------------------------------------------------
+
+Bir fonksiyon yazın, bu fonksiyon kendisine geçirilen bağlı liste (linked list) içindeki eleman sayısını döndürecektir.
+
+Fonksiyon aşağıdaki gibi tanımlanmalıdır:
+
+int	ft_list_size(t_list *begin_list);
+
+Aşağıdaki yapıyı kullanmalısınız ve bunu ft_list.h adıyla teslim etmelisiniz:
+
+typedef struct    s_list
+{
+    struct s_list *next;
+    void          *data;
+}                 t_list;

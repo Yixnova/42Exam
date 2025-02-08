@@ -1,0 +1,17 @@
+Görev Adı         : ft_range
+Beklenen Dosya    : ft_range.c
+İzin Verilen Fonksiyonlar: malloc
+--------------------------------------------------------------------------------
+
+Aşağıdaki fonksiyonu yazınız:
+
+int     *ft_range(int start, int end);
+
+Bu fonksiyon malloc() kullanarak bir tamsayı dizisi (array) ayırmalıdır, ardından bu diziyi start'tan başlayarak end'e kadar olan ardışık değerlerle doldurmalı (start ve end dahil) ve dizinin ilk değerine işaret eden bir pointer döndürmelidir.
+
+Örnekler:
+
+- (1, 3) ile, 1, 2 ve 3 içeren bir dizi döndüreceksiniz.
+- (-1, 2) ile, -1, 0, 1 ve 2 içeren bir dizi döndüreceksiniz.
+- (0, 0) ile, 0 içeren bir dizi döndüreceksiniz.
+- (0, -3) ile, 0, -1, -2 ve -3 içeren bir dizi döndüreceksiniz.

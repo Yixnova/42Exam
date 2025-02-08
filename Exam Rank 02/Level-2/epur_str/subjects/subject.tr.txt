@@ -1,0 +1,24 @@
+Görev Adı         : epur_str
+Beklenen Dosya    : epur_str.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+Bir dizeyi (string) alan ve kelimeler arasında yalnızca bir boşluk bırakarak ekrana yazdıran bir program yazın.
+
+Dizginin başında veya sonunda boşluk veya sekme (\t) karakterleri olmamalıdır. Çıktının sonunda bir yeni satır karakteri (\n) olmalıdır.
+
+Bir "kelime", boşluklar veya sekmelerle ayrılmış karakter dizisi olarak tanımlanır.
+
+Eğer parametre sayısı 1 değilse veya gösterilecek kelime yoksa, yalnızca yeni satır (\n) yazdırılmalıdır.
+
+Örnekler:
+
+$> ./epur_str "See? It's easy to print the same thing" | cat -e
+See? It's easy to print the same thing$
+$> ./epur_str " this        time it      will     be    more complex  . " | cat -e
+this time it will be more complex .$
+$> ./epur_str "No S*** Sherlock..." "nAw S*** ShErLaWQ..." | cat -e
+$
+$> ./epur_str "" | cat -e
+$
+$>

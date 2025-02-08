@@ -1,0 +1,17 @@
+Görev Adı         : ft_atoi_base
+Beklenen Dosya    : ft_atoi_base.c
+İzin Verilen Fonksiyonlar: None
+--------------------------------------------------------------------------------
+
+Bir fonksiyon yazın, bu fonksiyon str adlı string argümanını (taban N <= 16) alacak ve onu bir tam sayıya (taban 10) dönüştürüp geri döndürecektir.
+
+Girdi olarak tanınan karakterler: 0123456789abcdef
+Bu karakterler, tabii ki, istenen tabana göre kesilecektir. Örneğin, base 4 "0123" karakterlerini tanır, base 16 ise "0123456789abcdef" karakterlerini tanır.
+
+Büyük harfler de tanınmalıdır: "12fdb3" ile "12FDB3" aynıdır.
+
+Eksi işareti ('-') yalnızca string'in ilk karakteri olarak yorumlanmalıdır.
+
+Fonksiyonunuz aşağıdaki gibi tanımlanmalıdır:
+
+int	ft_atoi_base(const char *str, int str_base);

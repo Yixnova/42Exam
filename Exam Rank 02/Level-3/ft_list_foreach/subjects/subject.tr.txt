@@ -1,0 +1,23 @@
+Görev Adı         : ft_list_foreach
+Beklenen Dosyalar  : ft_list_foreach.c, ft_list.h
+İzin Verilen Fonksiyonlar:
+--------------------------------------------------------------------------------
+
+Bir liste ve bir fonksiyon işaretçisi alacak bir fonksiyon yazınız,
+ve bu fonksiyonu listedeki her öğeye uygulatınız.
+
+Fonksiyon şu şekilde tanımlanmalıdır:
+
+void    ft_list_foreach(t_list *begin_list, void (*f)(void *));
+
+f işaretçisi tarafından işaret edilen fonksiyon şu şekilde kullanılacaktır:
+
+(*f)(list_ptr->data);
+
+Aşağıdaki yapıyı kullanmalısınız ve bunu ft_list.h olarak teslim etmelisiniz:
+
+typedef struct    s_list
+{
+    struct s_list *next;
+    void          *data;
+}                 t_list;

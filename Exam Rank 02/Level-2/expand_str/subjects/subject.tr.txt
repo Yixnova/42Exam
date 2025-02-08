@@ -1,0 +1,24 @@
+Görev Adı         : expand_str
+Beklenen Dosya    : expand_str.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+Bir dizeyi (string) alan ve kelimeler arasında **tam olarak üç boşluk** bırakarak ekrana yazdıran bir program yazın.
+
+Dizginin başında veya sonunda **boşluk veya sekme (\t) karakterleri olmamalıdır**. Çıktının sonunda bir yeni satır karakteri (\n) olmalıdır.
+
+Bir "kelime", boşluklar veya sekmelerle ayrılmış karakter dizisi olarak tanımlanır.
+
+Eğer parametre sayısı 1 değilse veya gösterilecek kelime yoksa, yalnızca yeni satır (\n) yazdırılmalıdır.
+
+Örnekler:
+
+$> ./expand_str "See? It's easy to print the same thing" | cat -e
+See?   It's   easy   to   print   the   same   thing$
+$> ./expand_str " this        time it      will     be    more complex  " | cat -e
+this   time   it   will   be   more   complex$
+$> ./expand_str "No S*** Sherlock..." "nAw S*** ShErLaWQ..." | cat -e
+$
+$>
+$
+$>

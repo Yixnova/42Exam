@@ -1,0 +1,28 @@
+Görev Adı         : rev_wstr
+Beklenen Dosya    : rev_wstr.c
+İzin Verilen Fonksiyonlar: write, malloc, free
+--------------------------------------------------------------------------------
+
+Bir program yazınız, bu program bir string parametre alacak ve bu string'in
+kelimelerini ters sırayla yazdıracaktır.
+
+Bir "kelime", string'in, boşluklar ve/veya taplarla sınırlı bir kısmı veya
+string'in başı/sonu olarak tanımlanır.
+
+Eğer parametre sayısı 1'den farklıysa, program '\n' gösterecektir.
+
+Test edilecek parametrelerde "fazladan" boşluklar olmayacaktır
+(bu, string'in başında veya sonunda ek boşluk olmayacağı, kelimelerin ise her zaman
+tam olarak bir boşlukla ayrılacağı anlamına gelir).
+
+Örnekler:
+
+$> ./rev_wstr "You hate people! But I love gatherings. Isn't it ironic?" | cat -e
+ironic? it Isn't gatherings. love I But people! hate You$
+$>./rev_wstr "abcdefghijklm"
+abcdefghijklm
+$> ./rev_wstr "Wingardium Leviosa" | cat -e
+Leviosa Wingardium$
+$> ./rev_wstr | cat -e
+$
+$>

@@ -1,0 +1,25 @@
+Görev Adı         : hidenp
+Beklenen Dosya    : hidenp.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+"fgex.;" ve "tyf34gdgf;'ektufjhgdgex.;.;rtjynur6" gibi iki dizeyi alarak,
+ilk dize ikinci dizede gizlenmişse 1 ve bir satır sonu yazdıran bir program
+yazınız, aksi takdirde 0 ve bir satır sonu yazdırılmalıdır.
+
+s1 ve s2 dizeleri verilsin. s1'in s2'de gizli olduğunu söylemek için,
+s1'deki her bir karakterin s2'de, s1'deki sırasıyla bulunabiliyor olması gerekir.
+Ayrıca, boş bir dize her dizede gizlidir.
+
+Eğer parametre sayısı 2 değilse, program bir satır sonu yazdırmalıdır.
+
+Örnekler:
+
+$>./hidenp "fgex.;" "tyf34gdgf;'ektufjhgdgex.;.;rtjynur6" | cat -e
+1$
+$>./hidenp "abc" "2altrb53c.sse" | cat -e
+1$
+$>./hidenp "abc" "btarc" | cat -e
+0$
+$>./hidenp | cat -e
+$

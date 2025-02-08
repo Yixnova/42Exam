@@ -1,0 +1,18 @@
+Görev Adı         : paramsum
+Beklenen Dosya    : paramsum.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+Bir program yazınız, bu program kendisine iletilen argümanların sayısını
+gösterir ve ardından bir satır sonu karakteri ekler.
+
+Eğer hiç argüman yoksa, sadece 0'ı ve bir satır sonu karakterini gösterin.
+
+Örnek:
+
+$>./paramsum 1 2 3 5 7 24
+6
+$>./paramsum 6 12 24 | cat -e
+3$
+$>./paramsum | cat -e
+0$

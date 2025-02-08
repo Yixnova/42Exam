@@ -1,0 +1,12 @@
+Görev Adı         : ft_itoa
+Beklenen Dosya    : ft_itoa.c
+İzin Verilen Fonksiyonlar: malloc
+--------------------------------------------------------------------------------
+
+Bir int alacak ve bunu null ile sonlandırılmış bir diziye (string) dönüştürecek
+bir fonksiyon yazınız. Fonksiyon, sonucu bir char dizisi olarak döndürmelidir
+ve bu diziyi kendiniz ayırmalısınız (allocate etmelisiniz).
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+char	*ft_itoa(int nbr);

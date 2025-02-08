@@ -1,0 +1,14 @@
+Görev Adı         : sort_int_tab
+Beklenen Dosya    : sort_int_tab.c
+İzin Verilen Fonksiyonlar:
+--------------------------------------------------------------------------------
+
+Aşağıdaki fonksiyonu yazın:
+
+void sort_int_tab(int *tab, unsigned int size);
+
+Bu fonksiyon, tam olarak 'size' eleman içeren 'tab' tamsayı dizisini yerinde (in-place) artan düzende sıralamalıdır.
+
+Doubles korunmalıdır.
+
+Girdi her zaman tutarlıdır.
