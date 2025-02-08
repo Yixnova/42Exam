@@ -18,7 +18,7 @@ Ecole 42 breaks away from the traditional classroom model by offering an innovat
 ## About the Ecole 42 Exam System
 
 - **Gamification and Leveling Up:**  
-  At Ecole 42, learning is structured like a game where you earn points and level up. Each project or exam challenges students to prove their technical knowledge, problem-solving abilities, and time management skills. As you progress, you unlock new projects and learning paths. :contentReference[oaicite:0]{index=0}
+  At Ecole 42, learning is structured like a game where you earn points and level up. Each project or exam challenges students to prove their technical knowledge, problem-solving abilities, and time management skills. As you progress, you unlock new projects and learning paths.
 
 - **Self-Paced Learning:**  
   Students have the opportunity to learn from their mistakes and retake the exam. In the event of a failure, the exam process resets and you start again from level 1. This approach supports continuous learning and personal growth.
