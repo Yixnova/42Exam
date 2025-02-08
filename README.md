@@ -9,7 +9,7 @@
   </p>
 </p>
 
-# :sparkles: Ecole 42 Exam System & Exam Rank02
+# :sparkles: Ecole 42 Exam
 
 Ecole 42 breaks away from the traditional classroom model by offering an innovative, fully project-based and peer-to-peer learning experience. This README outlines the general framework of Ecole 42’s exam system, with a special focus on the dynamics and content of **Exam Rank02**.
 
