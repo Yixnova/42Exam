@@ -1,0 +1,29 @@
+Görev Adı         : search_and_replace
+Beklenen Dosya    : search_and_replace.c
+İzin Verilen Fonksiyonlar: write, exit
+--------------------------------------------------------------------------------
+
+search_and_replace adlı bir program yazın, bu program 3 parametre almalı:
+1. Parametre: String (harf değişikliği yapılacak metin)
+2. Parametre: Bir harf (değiştirilecek harf)
+3. Parametre: Bir harf (yeni harf)
+
+Eğer parametre sayısı 3 değilse, sadece bir yeni satır karakteri yazdırmalıdır.
+
+Eğer ikinci parametredeki harf, birinci parametredeki string'de yoksa,
+program sadece ilk string'i yazdırmalı ve ardından bir yeni satır karakteri eklemelidir.
+
+Örnekler:
+$>./search_and_replace "Papache est un sabre" "a" "o"
+Popoche est un sobre
+$>./search_and_replace "zaz" "art" "zul" | cat -e
+$
+$>./search_and_replace "zaz" "r" "u" | cat -e
+zaz$
+$>./search_and_replace "jacob" "a" "b" "c" "e" | cat -e
+$
+$>./search_and_replace "ZoZ eT Dovid oiME le METol." "o" "a" | cat -e
+ZaZ eT David aiME le METal.$
+$>./search_and_replace "wNcOre Un ExEmPle Pas Facilw a Ecrirw " "w" "e" | cat -e
+eNcOre Un ExEmPle Pas Facile a Ecrire $
+cOre Un ExEmPle Pas Facile a Ecrire $

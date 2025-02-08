@@ -1,0 +1,10 @@
+Görev Adı         : ft_strlen
+Beklenen Dosya    : ft_strlen.c
+İzin Verilen Fonksiyonlar:
+--------------------------------------------------------------------------------
+
+Bir string'in uzunluğunu döndüren bir fonksiyon yazın.
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+int ft_strlen(char *str);

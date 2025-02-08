@@ -1,0 +1,12 @@
+Görev Adı         : ft_putstr
+Beklenen Dosya    : ft_putstr.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+Bir fonksiyon yazın, bu fonksiyon bir stringi standart çıktıya (ekrana) yazdırsın.
+
+Fonksiyona geçirilen pointer, string'in ilk karakterinin adresini içermektedir.
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+void ft_putstr(char *str);

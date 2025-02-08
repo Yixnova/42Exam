@@ -1,0 +1,10 @@
+Görev Adı         : ft_strcpy
+Beklenen Dosya    : ft_strcpy.c
+İzin Verilen Fonksiyonlar:
+--------------------------------------------------------------------------------
+
+strcpy fonksiyonunun davranışını yeniden üretin (man strcpy).
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+char *ft_strcpy(char *s1, char *s2);

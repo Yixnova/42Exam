@@ -1,0 +1,28 @@
+Görev Adı         : first_word
+Beklenen Dosya    : first_word.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+Bir string alan ve içerisindeki ilk kelimeyi ekrana yazdıran, ardından bir
+yeni satır karakteri basan bir program yazın.
+
+Bir kelime, string içinde boşluklar (space), sekme karakterleri (tab) veya
+string'in başlangıç/bitişi ile sınırlanmış bir bölümdür.
+
+Eğer parametre sayısı 1 değilse veya kelime yoksa, yalnızca yeni bir satır
+karakteri yazdırın.
+
+Örnekler:
+
+$> ./first_word "FOR PONY" | cat -e
+FOR$
+$> ./first_word "this        ...       is sparta, then again, maybe    not" | cat -e
+this$
+$> ./first_word "   " | cat -e
+$
+$> ./first_word "a" "b" | cat -e
+$
+$> ./first_word "  lorem,ipsum  " | cat -e
+lorem,ipsum$
+$>
+

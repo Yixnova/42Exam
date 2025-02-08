@@ -1,0 +1,11 @@
+Görev Adı         : ft_swap
+Beklenen Dosya    : ft_swap.c
+İzin Verilen Fonksiyonlar: -
+--------------------------------------------------------------------------------
+
+İki tamsayının içeriklerini, parametre olarak geçirilen adresleri kullanarak
+değiştiren bir fonksiyon yazın.
+
+Fonksiyonunuz şu şekilde tanımlanmalıdır:
+
+void ft_swap(int *a, int *b);

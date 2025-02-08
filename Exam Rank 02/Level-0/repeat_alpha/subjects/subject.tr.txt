@@ -1,0 +1,28 @@
+Görev Adı         : repeat_alpha
+Beklenen Dosya    : repeat_alpha.c
+İzin Verilen Fonksiyonlar: write
+--------------------------------------------------------------------------------
+
+repeat_alpha adlı bir program yazın, bu program bir string almalı ve
+stringdeki her harfi, alfabetik sırasına göre tekrar etmeli, ardından bir
+yeni satır karakteri yazdırmalıdır.
+
+'a' 'a' olur, 'b' 'bb' olur, 'e' 'eeeee' olur, vb...
+
+Büyük/küçük harf farkı korunmalıdır.
+
+Eğer parametre sayısı 1 değilse, yalnızca bir yeni satır karakteri yazdırın.
+
+Örnekler:
+
+$> ./repeat_alpha "abc"
+abbccc
+$> ./repeat_alpha "Alex." | cat -e
+Alllllllllllleeeeexxxxxxxxxxxxxxxxxxxxxxxx.$
+$> ./repeat_alpha 'abacadaba 42!' | cat -e
+abbacccaddddabba 42!$
+$> ./repeat_alpha | cat -e
+$
+$> ./repeat_alpha "" | cat -e
+$
+$>
