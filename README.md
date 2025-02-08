@@ -43,29 +43,4 @@ Ecole 42 breaks away from the traditional classroom model by offering an innovat
 
 ---
 
-## How the Exam Works
-
-1. **Preparation Phase:**  
-   Prior to the exam, it is crucial to thoroughly prepare in C fundamentals, basic algorithms, data structures, and system functions.
-
-2. **Exam Process:**  
-   - In each attempt, you are presented with randomly selected questions by the exam system.  
-   - You must write and test your code within the given time limit.  
-   - In case of any mistakes, you have the option to restart the exam from level 1.
-
-3. **Retake Opportunity:**  
-   Failure in the exam is not permanent. You can reattempt the exam at regular intervals, allowing you to address your shortcomings and learn from your mistakes.
-
----
-
-## Looking Ahead
-
-Exam Rank02 is an integral part of Ecole 42’s innovative education system that prepares students for real-world challenges. Successfully passing this exam not only equips you for higher-level projects and tougher challenges but also enhances teamwork, problem-solving, and time management skills—key attributes for both technical and personal development.
-
----
-
-## Conclusion
-
-The exam system at Ecole 42 is a student-centered, continuously evolving approach that contrasts sharply with traditional education models. Exam Rank02 stands as one of its core components, testing your foundational programming and algorithmic skills while encouraging learning from mistakes and preparing you for real-world problem solving.
-
 Good luck and happy coding!
